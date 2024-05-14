@@ -1,5 +1,5 @@
 /*Media query Mobile*/
-@media only screen and (max-width:425px) {
+@media only screen and (max-width: 992px) {
 
     /*Barra de menu*/
     .headerContainer{
@@ -130,24 +130,12 @@
         height: 500px;
         margin: 30px;
     }
-     
-
-
-    
+        
 }
-
-/*Media query Tablet*/
-@media only screen and(min-width:768) and (max-width:1023){
-
-    /**/
-
-}
-
-
 
 
 /*Media query laptop/*/
-@media only screen and (min-width:1024px){
+@media only screen and (min-width: 993px){
 
  /*Barra de menu*/
 
@@ -160,7 +148,7 @@
     border-bottom: 3px solid #5b3a29;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .logo{
@@ -174,9 +162,6 @@
 header nav ul{
     font-family: "Outfit", sans-serif;
     list-style-type: none;
-    position: absolute;
-    left: 25%;
-    top: 15px;    
 }
 
 header nav ul a {
@@ -192,10 +177,8 @@ header nav ul li{
 }
 
 
-
-
 .menuIcon{
-   display: none;
+    display: none;
 }
 
 
@@ -212,6 +195,7 @@ h1 {
     margin-top: 150px;
 
 }
+
 .texto-general{
     text-align: center;
 }
