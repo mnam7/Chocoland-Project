@@ -1,5 +1,5 @@
 /*Media query Mobile*/
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 480px) {
 
     /*Barra de menu*/
     .headerContainer{
@@ -32,12 +32,175 @@
     /*Texto Inicio*/
 
     h1 {
-        color:#d9b076;
-        font-family: "Outfit", sans-serif;
-        font-size: 50px;
-        font-style: italic;
+        color:#d9b076 !important;
+        font-family: "Outfit", sans-serif !important;
+        font-size: 50px !important;
+        font-style: italic !important;
+        text-align: center !important;
+        margin-top: 150px !important;
+    
+    }
+
+    .texto-general{
         text-align: center;
-        margin-top: 150px;
+    }
+
+
+    .index-text{
+            font-family: "Outfit", sans-serif;
+            text-align: center;
+            color:#5b3a29;
+            font-size: 20px;
+            line-height: 1.5;
+            display:inline-block;
+    }
+
+    
+    .resaltar{
+        font-family: "Outfit", sans-serif;
+        color:#5b3a29;
+        font-size: 20px;
+        display:inline;
+        background-color:#f7ad46;
+        padding-bottom: 3px;
+        font-style: italic;
+        white-space: nowrap;
+    
+    }
+
+    /*Imagenes Chocolate Inicio*/
+
+    .imageContainer{
+        display:flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .index-image{
+        height:250px;
+        width: 250px;
+        margin: auto;
+        border-radius: 99%;
+        padding: 10px;
+    
+    }
+
+    /*video chocolate Inicio*/
+
+    .videoContainer{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding:5px;
+    }
+
+    iframe {
+        height:100%;
+        width: 100%;
+    
+    }
+
+    /*Footer*/
+
+    .footerContainer{
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;  
+        border-top: 3px solid #5b3a29;
+        align-items: center;
+        justify-content: space-between;
+        margin-top :50px;
+    }
+
+    .redesSociales{
+        display: flex;
+        align-items:center;   
+    }
+    
+    .icono{
+      width: 30px;
+      height: 30px;
+    }
+    
+    
+    footer img{
+        margin-right:10px;
+    }
+
+
+
+    .img-fluid{
+        width:350px;
+        height: 500px;
+        margin: 30px;
+    }
+
+    /*seccion chocolates*/
+
+    /*Seccion CHOCOLATE*/
+    /*Imagen*/
+
+    .chocoImagenContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .titulo{
+        font-family: "Outfit", sans-serif !important; 
+        text-align: center !important; 
+        color:#5b3a29 !important; 
+        font-size: 20px !important; 
+        margin: 30px !important;
+    }
+
+   .parrafoChoco{
+        margin: 50px;
+        font-family:"Outfit", sans-serif !important;
+        
+   }
+            
+}
+
+/*Tamano TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+
+    /*Barra de menu*/
+    .headerContainer{
+        height: 80px;
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;  
+        border-bottom: 3px solid #5b3a29;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .logo{
+        height:70px;
+        width:100px;
+        margin:5px;
+    }
+
+   nav{
+        display:none;
+    }
+
+
+    header div .menuBurger{
+        margin-right: 50px;   
+    }
+
+    /*Texto Inicio*/
+
+    h1 {
+        color:#d9b076 !important;
+        font-family: "Outfit", sans-serif !important;
+        font-size: 50px !important;
+        font-style: italic !important;
+        text-align: center !important;
+        margin-top: 150px !important;
     
     }
     .texto-general{
@@ -106,6 +269,7 @@
         border-top: 3px solid #5b3a29;
         align-items: center;
         justify-content: space-between;
+        margin-top :50px;
     }
 
     .redesSociales{
@@ -130,12 +294,40 @@
         height: 500px;
         margin: 30px;
     }
+
+    /*seccion chocolates*/
+
+    /*Seccion CHOCOLATE*/
+    /*Imagen*/
+
+    .chocoImagenContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .titulo{
+        font-family: "Outfit", sans-serif !important; 
+        text-align: center !important; 
+        color:#5b3a29 !important; 
+        font-size: 20px !important; 
+        margin: 30px !important;
+    }
+
+   .parrafoChoco{
+        margin: 50px;
+        font-family:"Outfit", sans-serif !important;
         
+   }
+            
 }
 
 
+
+
+
+
 /*Media query laptop/*/
-@media only screen and (min-width: 993px){
+@media only screen and (min-width: 1024px){
 
  /*Barra de menu*/
 
@@ -187,12 +379,12 @@ header nav ul li{
 
 
 h1 {
-    color:#d9b076;
-    font-family: "Outfit", sans-serif;
-    font-size: 50px;
-    font-style: italic;
-    text-align: center;
-    margin-top: 150px;
+    color:#d9b076 !important;
+    font-family: "Outfit", sans-serif !important;
+    font-size: 50px !important;
+    font-style: italic !important;
+    text-align: center !important;
+    margin-top: 150px !important;
 
 }
 
@@ -283,26 +475,40 @@ footer img{
 
 }
 
-.img-fluid{
-    width:350px;
-    height: 500px;
-    margin: 30px 30px
-}
-
-.tipo-chocolate{
-
-    height:350px;
-    width: 500px;
-    margin: 30px 30px;
-
-}
 
 .titulo{
-    font-family: "Outfit", sans-serif;
-    text-align: center;
-    color:#5b3a29;
-    font-size: 20px;
-    margin: 30px;
-
+    font-family: "Outfit", sans-serif !important; 
+    text-align: center !important; 
+    color:#5b3a29 !important; 
+    font-size: 20px !important; 
+    margin: 30px !important;
+    display: grid;
+    grid-template-rows: 50px;
+    
+    
 }
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows :300px ;
+    row-gap: 25px;
+    column-gap : 50px;
+    padding: 3px ;
+    margin: 10px ;
+    align-items: center;
+    
+   
+}
+
+
+div p{
+   
+    font-family:"Outfit", sans-serif !important;
+   
+  
+}
+
+
+
 }
