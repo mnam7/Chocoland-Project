@@ -1,0 +1,111 @@
+@include mobile{
+    main{
+        section{
+            h2{
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+                padding: 5px;
+                margin: 10px;
+                font-weight: bold;
+            }
+        }
+        section{
+            .image-container{
+                display: flex;
+                flex-direction: column;
+                
+            }   
+            .imagenReceta{
+                height:250px;
+                width: 100%;
+                margin:auto;
+                padding: 10px;
+            }
+
+        }
+
+        section{
+            h5{
+                font-family: 'Courier New', Courier, monospace;
+                margin-left: 30px;
+                text-decoration: underline;
+                
+            }
+        }
+        
+    }
+}
+
+@include tablet{
+    main{
+        section{
+            h2{
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+                padding: 5px;
+                margin: 10px;
+                font-weight: bold;
+            }
+        }
+        section{
+            .image-container{
+                display: flex;
+                flex-direction: column;
+                
+            }   
+            .imagenReceta{
+                height:250px;
+                width: 100%;
+                margin:auto;
+                padding: 10px;
+            }
+
+        }
+
+        section{
+            h5{
+                font-family: 'Courier New', Courier, monospace;
+                margin-left: 30px;
+                text-decoration: underline;
+                
+            }
+        }
+        
+    }
+
+}
+
+@include desktop{
+    main{
+        section{
+            h2{
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+                padding:5px;
+                margin:10px;
+                font-weight: bold;
+            }
+        }
+        section{
+            .image-container{
+                display:flex;
+                flex-direction: row;
+            }
+            .imagenReceta{
+                height: 250px;
+                width: 350px;
+                margin: 10px;
+                padding: 5px;
+                align-items: center;
+            }
+        }
+        section {
+            h5{
+                font-family: 'Courier New', Courier, monospace;
+                text-decoration: underline;
+                margin-left: 30px;
+            }
+        }
+        
+    }
+}

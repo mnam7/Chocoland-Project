@@ -1,0 +1,34 @@
+
+footer{
+    .footerContainer{
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;  
+        border-top: 3px solid #5b3a29;
+        align-items: center;
+        justify-content: space-between;
+        margin-top :50px;
+    }
+
+    .redesSociales{
+        display: flex;
+        align-items:center;   
+    }
+    
+    .icono{
+      width: 30px;
+      height: 30px;
+    }
+
+
+}
+
+
+.logo{
+    height:70px;
+    width:100px;
+    margin:5px;
+
+}
+

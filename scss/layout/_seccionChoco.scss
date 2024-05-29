@@ -1,0 +1,109 @@
+@mixin titulo{
+    color:#d9b076 !important;
+    font-family: "Outfit", sans-serif !important;
+    font-size: 50px !important;
+    font-style: italic !important;
+    text-align: center !important;
+    margin-top: 150px !important;
+}
+
+@include mobile{
+
+    
+    .chocoImagenContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .titulo{
+        font-family: "Outfit", sans-serif !important; 
+        text-align: center !important; 
+        color:#5b3a29 !important; 
+        font-size: 20px !important; 
+        margin: 30px !important;
+    }
+
+   .parrafoChoco{
+        margin: 50px;
+        font-family:"Outfit", sans-serif !important;
+        
+   }
+
+
+}
+@include tablet{
+
+    .chocoImagenContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .titulo{
+        font-family: "Outfit", sans-serif !important; 
+        text-align: center !important; 
+        color:#5b3a29 !important; 
+        font-size: 20px !important; 
+        margin: 30px !important;
+    }
+
+   .parrafoChoco{
+        margin: 50px;
+        font-family:"Outfit", sans-serif !important;
+        
+   }
+
+}
+@include desktop{
+    .chocoImagenContainer{
+        display:flex;
+        flex-direction:column;
+    
+    }
+    
+    
+    .titulo{
+        font-family: "Outfit", sans-serif !important; 
+        text-align: center !important; 
+        color:#5b3a29 !important; 
+        font-size: 20px !important; 
+        margin: 30px !important;
+        display: grid;
+        grid-template-rows: 50px;
+        
+        
+    }
+    
+    .mainContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-rows :300px ;
+        row-gap: 25px;
+        column-gap : 50px;
+        padding: 3px ;
+        margin: 10px ;
+        align-items: center;
+        
+       
+    }
+    
+    main {
+        section{
+            div {
+                div{
+                    p{
+       
+                    font-family:"Outfit", sans-serif !important;
+        
+                    }
+                }
+
+            }
+        }
+    }
+    
+    .img-fluid{
+        height: 321px !important;
+    }
+    
+
+}

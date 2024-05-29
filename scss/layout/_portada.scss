@@ -1,0 +1,200 @@
+@mixin titulo{
+    color:#d9b076 !important;
+    font-family: "Outfit", sans-serif !important;
+    font-size: 50px !important;
+    font-style: italic !important;
+    text-align: center !important;
+    margin-top: 150px !important;
+}
+
+@mixin texto-portada{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    color:#5b3a29;
+    font-size: 20px;
+    line-height: 1.5;
+    display:inline-block;
+}
+
+@mixin texto-resaltar{
+    font-family: "Outfit", sans-serif;
+    color:#5b3a29;
+    font-size: 20px;
+    display:inline;
+    background-color:#f7ad46;
+    padding-bottom: 3px;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+@include mobile{
+
+
+main{
+    section{
+        h1{
+            @include titulo();
+    
+        }
+    }
+
+  
+    .texto-general{
+        text-align: center;
+    }
+
+    .index-text{
+         @include texto-portada();
+    }
+    .resaltar{
+        @include texto-portada();
+
+    }
+
+
+    section{
+
+        .imageContainer{
+            display:flex;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+
+       
+        .index-image{
+            height:250px;
+            width: 250px;
+            margin: auto;
+            border-radius: 99%;
+            padding: 10px;
+        
+        }
+        
+    }
+
+    section{
+        .videoContainer{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding:5px;
+        }
+
+        iframe {
+            height:100%;
+            width: 100%;
+        
+        }
+    
+
+    }
+}
+
+}
+
+@include tablet{
+
+    main{
+        section{
+            h1 {
+                @include titulo();
+            }
+        }
+    
+        .texto-general{
+            text-align: center;
+         }
+    
+        .index-text{
+            @include texto-portada();
+        }
+    
+        .resaltar{
+            @include texto-resaltar();
+    
+        }
+
+    /*Imagenes Chocolate Inicio*/
+
+    .imageContainer{
+        display:flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .index-image{
+        height:250px;
+        width: 250px;
+        margin: auto;
+        border-radius: 99%;
+        padding: 10px;
+    
+    }
+
+    /*video chocolate Inicio*/
+
+    .videoContainer{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding:5px;
+    }
+
+    iframe {
+        height:100%;
+        width: 100%;
+    
+    }
+
+
+    }
+}
+
+@include desktop{
+
+    h1 {
+       @include titulo();
+    
+    }
+    
+    .texto-general{
+        text-align: center;
+    }
+    
+    .index-text{
+       @include texto-portada();
+        
+    }
+    
+    .resaltar{
+        @include texto-resaltar();
+    
+    }
+    
+    /*Imagenes Chocolate Inicio*/
+    
+    .imageContainer{
+        display:flex;
+        flex-direction: row;
+        margin-top: 200px;
+    }
+    
+    .index-image{
+        height:350px;
+        width: 350px;
+        margin: auto;
+        border-radius: 99%;
+    
+    }
+    
+    /*video chocolate Inicio*/
+    
+    
+    .videoContainer{
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    
+
+}
+
+
