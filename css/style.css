@@ -326,5 +326,215 @@ footer .icono {
     margin-left: 30px;
   }
 }
+@media only screen and (max-width: 480px) {
+  main section .card-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+  }
+  main section .card {
+    margin: auto;
+  }
+  main section .card div {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+  }
+  main section .card .card-front {
+    position: relative;
+    transform: perspective(500px) rotateY(0deg);
+  }
+  main section .card .card-front .rectangulo {
+    height: 60px;
+    width: 50px;
+    background-color: #0081ff;
+    border-radius: 5%;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+  main section .card .card-front .fecha {
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  main section .card .card-front .card-body .card-text {
+    font-size: 20px;
+  }
+  main section .card .card-front .card-body .ubicacion {
+    display: flex;
+    flex-direction: row;
+  }
+  main section .card .card-front .card-body .ubicacion span {
+    color: gray;
+  }
+  main section .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #5b3a29;
+    border-radius: 2%;
+    transform: perspective(500px) rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .card .card-back .card-text {
+    font-size: small;
+    color: white;
+    text-align: center;
+  }
+  main section .card .card-back div {
+    background-size: cover;
+  }
+  main section .card:hover .card-front {
+    transform: perspective(500px) rotateY(180deg);
+  }
+  main section .card:hover .card-back {
+    transform: perspective(500px) rotateY(360deg);
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  main section .card-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+  }
+  main section .card {
+    margin: auto;
+  }
+  main section .card div {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+  }
+  main section .card .card-front {
+    position: relative;
+    transform: perspective(500px) rotateY(0deg);
+  }
+  main section .card .card-front .rectangulo {
+    height: 60px;
+    width: 50px;
+    background-color: #0081ff;
+    border-radius: 5%;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+  main section .card .card-front .fecha {
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  main section .card .card-front .card-body .card-text {
+    font-size: 20px;
+  }
+  main section .card .card-front .card-body .ubicacion {
+    display: flex;
+    flex-direction: row;
+  }
+  main section .card .card-front .card-body .ubicacion span {
+    color: gray;
+  }
+  main section .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #5b3a29;
+    border-radius: 2%;
+    transform: perspective(500px) rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .card .card-back .card-text {
+    font-size: small;
+    color: white;
+    text-align: center;
+  }
+  main section .card .card-back div {
+    background-size: cover;
+  }
+  main section .card:hover .card-front {
+    transform: perspective(500px) rotateY(180deg);
+  }
+  main section .card:hover .card-back {
+    transform: perspective(500px) rotateY(360deg);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main section .card-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+  }
+  main section .card {
+    margin: auto;
+  }
+  main section .card div {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+  }
+  main section .card .card-front {
+    position: relative;
+    transform: perspective(500px) rotateY(0deg);
+  }
+  main section .card .card-front .rectangulo {
+    height: 60px;
+    width: 50px;
+    background-color: #0081ff;
+    border-radius: 5%;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+  main section .card .card-front .fecha {
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  main section .card .card-front .card-body .card-text {
+    font-size: 20px;
+  }
+  main section .card .card-front .card-body .ubicacion {
+    display: flex;
+    flex-direction: row;
+  }
+  main section .card .card-front .card-body .ubicacion span {
+    color: gray;
+  }
+  main section .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #5b3a29;
+    border-radius: 2%;
+    transform: perspective(500px) rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .card .card-back .card-text {
+    font-size: small;
+    color: white;
+    text-align: center;
+  }
+  main section .card .card-back div {
+    background-size: cover;
+  }
+  main section .card:hover .card-front {
+    transform: perspective(500px) rotateY(180deg);
+  }
+  main section .card:hover .card-back {
+    transform: perspective(500px) rotateY(360deg);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
