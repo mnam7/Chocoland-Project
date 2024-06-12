@@ -1,10 +1,10 @@
 @mixin titulo{
-    color:#d9b076 !important;
-    font-family: "Outfit", sans-serif !important;
-    font-size: 50px !important;
-    font-style: italic !important;
-    text-align: center !important;
-    margin-top: 150px !important;
+    color:#d9b076;
+    font-family: "Outfit", sans-serif!important;
+    font-size: 50px!important;
+    font-style: italic!important;
+    text-align: center!important;
+    margin-top: 150px!important;
 }
 
 @mixin texto-portada{
@@ -97,6 +97,7 @@ main{
         section{
             h1 {
                 @include titulo();
+                
             }
         }
     
@@ -152,7 +153,9 @@ main{
 
     h1 {
        @include titulo();
-    
+       title{
+            color:#d9b076!important;
+       }
     }
     
     .texto-general{

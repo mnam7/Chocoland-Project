@@ -54,6 +54,12 @@
 
 }
 @include desktop{
+
+    h1{
+        .title{
+            color:#d9b076!important;
+        }
+    }
     .chocoImagenContainer{
         display:flex;
         flex-direction:column;

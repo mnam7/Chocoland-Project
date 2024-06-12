@@ -184,6 +184,11 @@
 }
 @include desktop{
     main{
+        h1{
+            .titles{
+                color:#d9b076!important;
+            }
+        }
         section{
             .card-container{
                 display: flex;

@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 480px) {
   main section h1 {
-    color: #d9b076 !important;
+    color: #d9b076;
     font-family: "Outfit", sans-serif !important;
     font-size: 50px !important;
     font-style: italic !important;
@@ -64,7 +64,7 @@
     /*video chocolate Inicio*/
   }
   main section h1 {
-    color: #d9b076 !important;
+    color: #d9b076;
     font-family: "Outfit", sans-serif !important;
     font-size: 50px !important;
     font-style: italic !important;
@@ -116,12 +116,15 @@
 }
 @media only screen and (min-width: 1024px) {
   h1 {
-    color: #d9b076 !important;
+    color: #d9b076;
     font-family: "Outfit", sans-serif !important;
     font-size: 50px !important;
     font-style: italic !important;
     text-align: center !important;
     margin-top: 150px !important;
+  }
+  h1 title {
+    color: #d9b076 !important;
   }
   .texto-general {
     text-align: center;
@@ -223,6 +226,9 @@ footer .icono {
   }
 }
 @media only screen and (min-width: 1024px) {
+  h1 .title {
+    color: #d9b076 !important;
+  }
   .chocoImagenContainer {
     display: flex;
     flex-direction: column;
@@ -302,6 +308,9 @@ footer .icono {
   }
 }
 @media only screen and (min-width: 1024px) {
+  main h1 .titles {
+    color: #d9b076 !important;
+  }
   main section h2 {
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -467,6 +476,9 @@ footer .icono {
   }
 }
 @media only screen and (min-width: 1024px) {
+  main h1 .titles {
+    color: #d9b076 !important;
+  }
   main section .card-container {
     display: flex;
     flex-direction: row;
@@ -534,6 +546,137 @@ footer .icono {
   }
   main section .card:hover .card-back {
     transform: perspective(500px) rotateY(360deg);
+  }
+}
+@media only screen and (max-width: 480px) {
+  main .bg-img {
+    background-image: url("../../images/chocolate-negro.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: -160px;
+    margin-bottom: -50px;
+    position: relative;
+  }
+  main .bg-img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.4;
+  }
+  main .bg-img form {
+    margin-top: 100px;
+    position: relative;
+  }
+  main .bg-img form .form-group {
+    margin: 20px;
+  }
+  main .bg-img form .btn-submit {
+    margin-left: 20px;
+    background-color: #5b3a29;
+    border-color: #5b3a29;
+    color: white;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 75px;
+    border-radius: 7%;
+  }
+  main .bg-img label {
+    color: white;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  main .bg-img {
+    background-image: url("../../images/chocolate-negro.jpg");
+    background-size: cover;
+    width: 100%;
+    margin-top: -160px;
+    margin-bottom: -50px;
+    position: relative;
+  }
+  main .bg-img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.4;
+  }
+  main .bg-img form {
+    margin-top: 100px;
+    position: relative;
+  }
+  main .bg-img form .form-group {
+    margin: 20px;
+  }
+  main .bg-img form .btn-submit {
+    margin-left: 20px;
+    background-color: #5b3a29;
+    border-color: #5b3a29;
+    color: white;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 75px;
+    border-radius: 7%;
+  }
+  main .bg-img label {
+    color: white;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main section h1 .titles1 {
+    color: #5b3a29;
+    margin-bottom: 10px;
+  }
+  main .bg-img {
+    background-image: url("../../images/chocolate-negro.jpg");
+    background-size: cover;
+    position: relative;
+    margin-top: -160px;
+    margin-bottom: -50px;
+  }
+  main .bg-img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.4;
+  }
+  main .container-ppal {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  main form {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  main form .form-contenedor {
+    margin: 20px;
+  }
+  main form .form-group {
+    margin: 20px;
+    position: relative;
+  }
+  main form .btn-submit {
+    margin-left: 20px;
+    background-color: #5b3a29;
+    border-color: #5b3a29;
+    color: white;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 75px;
+    border-radius: 7%;
+    position: relative;
+  }
+  main label {
+    color: white;
   }
 }
 
