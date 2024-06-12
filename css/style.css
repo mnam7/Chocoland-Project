@@ -266,6 +266,7 @@ footer .icono {
     padding: 5px;
     margin: 10px;
     font-weight: bold;
+    color: #5b3a29;
   }
   main section .image-container {
     display: flex;
@@ -276,6 +277,9 @@ footer .icono {
     width: 100%;
     margin: auto;
     padding: 10px;
+  }
+  main section {
+    color: #5b3a29;
   }
   main section h5 {
     font-family: "Courier New", Courier, monospace;
@@ -290,6 +294,7 @@ footer .icono {
     padding: 5px;
     margin: 10px;
     font-weight: bold;
+    color: #5b3a29;
   }
   main section .image-container {
     display: flex;
@@ -302,6 +307,7 @@ footer .icono {
     padding: 10px;
   }
   main section h5 {
+    color: #5b3a29;
     font-family: "Courier New", Courier, monospace;
     margin-left: 30px;
     text-decoration: underline;
@@ -317,6 +323,7 @@ footer .icono {
     padding: 5px;
     margin: 10px;
     font-weight: bold;
+    color: #5b3a29;
   }
   main section .image-container {
     display: flex;
@@ -328,6 +335,9 @@ footer .icono {
     margin: 10px;
     padding: 5px;
     align-items: center;
+  }
+  main section {
+    color: #5b3a29;
   }
   main section h5 {
     font-family: "Courier New", Courier, monospace;
