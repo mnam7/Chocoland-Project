@@ -550,7 +550,7 @@ footer .icono {
 }
 @media only screen and (max-width: 480px) {
   main .bg-img {
-    background-image: url("../../images/chocolate-negro.jpg");
+    background-image: url("../images/chocolate-negro.jpg");
     background-size: cover;
     width: 100%;
     margin-top: -160px;
@@ -589,7 +589,7 @@ footer .icono {
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   main .bg-img {
-    background-image: url("../../images/chocolate-negro.jpg");
+    background-image: url("../images/chocolate-negro.jpg");
     background-size: cover;
     width: 100%;
     margin-top: -160px;
@@ -632,7 +632,7 @@ footer .icono {
     margin-bottom: 10px;
   }
   main .bg-img {
-    background-image: url("../../images/chocolate-negro.jpg");
+    background-image: url("../images/chocolate-negro.jpg");
     background-size: cover;
     position: relative;
     margin-top: -160px;
